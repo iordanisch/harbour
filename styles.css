@@ -157,12 +157,46 @@ margin: auto;
 text-align: center;
 padding-bottom: 25px;
 }
+
+.primary {
+  color: #fff;
+background: #1189a2;
+corner-radius: 4px;
+border: none;
+padding: 10px 25px 9px;
+text-align: center;
+text-decoration: none;
+border-radius: 4px;
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+
+.primary:hover {
+  text-decoration: none;
+background: #0e829b;
+color:#fff;
+}
+
+
+.secondary {
+  color: #fff;
+background: #828993;
+corner-radius: 4px;
+border: none;
+padding: 10px 25px 9px;
+text-align: center;
+text-decoration: none;
+border-radius: 4px;
+}
+  
+}
 button {
 color: #fff;
 background: #1189a2;
 corner-radius: 4px;
 border: none;
-padding: 10px 25px;
+padding: 10px 25px 9px;
 text-align: center;
 text-decoration: none;
 border-radius: 4px;
