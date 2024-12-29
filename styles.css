@@ -61,13 +61,13 @@ display: none;
 @keyframes slide {
 100% { left: 0; }
 }
-.header{
+/*.header{
 height: 600px;
 display: flex;
 background-position: center!important;
 background: url(https://github.com/iordanisch/harbour/blob/main/banner.jpg?raw=true);
 background-repeat: no-repeat;
-}
+}*/
 .nav-text{
 font-family: font-family: "Lato", serif;
 color: #828993;
