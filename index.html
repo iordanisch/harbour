@@ -20,19 +20,24 @@
 		<!-- <script src="my.js"></script> -->
 	</head>
 	<body>
-		<div class="nav-bar">
+		<div id="top" class="nav-bar">
 			<div class="nav-box">
 				<img class="logo" src="https://github.com/iordanisch/harbour/blob/main/Logo.jpg?raw=true" alt="Harbour cottage">
 			</div>
-			<div class="navigation-options">
-				<a class="nav-text" href="#">Home</a>
+			<div class="navigation-options">				
 				<a class="nav-text" href="#accomodation">Accommodation & Facilities</a>
 				<a class="nav-text" href="#activities">Lots to see and do</a>
 				<a class="nav-text" href="#contact-us">Contact Us</a>
 				<a class="nav-text" href="#gallery"> Gallery</a>
+				<a class="nav-text" href="#our-guests">Our guests</a>
 				<a class="nav-text" href="#prices"> Prices</a>
 			</div>
 		</div>
+<div id="atestbox" class="testbox">
+			<div id="TopButtona" class="TopButton"><a href="#top"><i class="fas fa-caret-up"></i></a>
+		</div>
+	</div>
+
 		<div class="mobile-nav-box">
 			<img class="mobile-logo" src="/home/iordanis/Desktop/Final logo small.jpg" alt="Goldcrest-Logo">
 			<div id="nav-icon3">
@@ -43,12 +48,12 @@
 			</div>
 			</button>
 			<div id="demo" class="hbox" style="display: none";>
-				<ul class="stack">
-					<a class="nav-text" href="#">Home</a>
+				<ul class="stack">					
 				<a class="nav-text" href="#accomodation">Accommodation & Facilities</a>
 				<a class="nav-text" href="#activities">Lots to see and do</a>
-				<a class="nav-text" href="#contactus">Contact Us</a>
+				<a class="nav-text" href="#contact-us">Contact Us</a>
 				<a class="nav-text" href="#gallery"> Gallery</a>
+				<a class="nav-text" href="#our-guests">Our guests</a>
 				<a class="nav-text" href="#prices"> Prices</a>
 				</ul>
 			</div>
@@ -59,9 +64,9 @@
 					</p>
 					<p class="heardertext">A perfect setting overlooking the loch</p>
 					<div class="but-box">
-					<!-- <button class="primary" href=>Contact us</button> -->
+				<br>
 					<a class="primary" href="#contact-us">Contact us</a>
-					<button class="secondary" href="#prices">Our prices</button>
+					<a class="secondary" href="#prices">Our prices</a>
 					</div>
 					<div class="headerbutbox">
 					</div>
@@ -75,7 +80,7 @@
 				<p>Sleeping from 2 to 6, Harbour Cottage has been recently re-roofed, double glazed, smoke detector system installed and refurbished, the cottage is idyllic for a romantic get-away or with its enclosed gardens and beach location is a perfect family base.</p>
 			</div>
 			<div class="content">
-				<div class="content-box-small">
+				<div id="accomodation" class="content-box-small">
 					<h2 class="text-white">Accommodation & Facilities</h2>
 					<br>
 					<br>
@@ -105,7 +110,7 @@
 					<p class="text-white">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
 				</div>
 			</div>
-			<div class="content-box-small">
+			<div id="activities" class="content-box-small">
 				<h2>Lots to see and do</h2>
 				<br>
 				<div class="activities">
@@ -132,23 +137,48 @@
 					</div>
 				</div>
 				<br>
-				<h2><<<<< CAROUSEL IMAGE ROTATOR WITH IMAGES>>>></h2>
+				<br>
+				<div id="more4">
+					<div class="activities">
+					
+					<div class="activities-small">
+						<img class="img-responsive" src="https://github.com/iordanisch/harbour/blob/main/Applecross%20to%20Shieldaig%20cow.jpg?raw=true" alt="">
+					</div>
+					<div class="activities-big">
+						<h3>West Coast of Scotland.</h3>
+						<p>Lochcarron is situated on the West Coast of Scotland on the shores of Loch Carron amidst magnificent Highland scenery.</p>
+						<button>Button</button>
+					</div>
+				</div>
+				<br>
+				<br>
+				<div class="Eilean">
+					<div class="Eilean-big">
+						<h3>West Coast of Scotland.</h3>
+						<p>Lochcarron is situated on the West Coast of Scotland on the shores of Loch Carron amidst magnificent Highland scenery.</p>
+						<button>Button</button>
+						<div id="dots4" >Button</div>
+					</div>
+					<div class="Eilean-small">
+						<img class="img-responsive" src="https://github.com/iordanisch/harbour/blob/main/Eilean%20Donan.jpg?raw=true" alt="">
+					</div>
+				</div>
+				<br>
+				<br>
+				</div>
+				<button onclick="myFunction4()" id="myBtn4" class="button secondary">Show more activities</button>
 			</div>
 			<div class="content-c">
-				<div class="content-box-small">
-					<h2 id="contact-us" class="text-white">Contact us</h2>
+				<div id="contact-us" class="content-box-small">
+					<h2  class="text-white">Contact us</h2>
 					<br>
-					<p class="text-white">Please contact us on the link below for availability and prices.</p>
-					<br>
-					
+					<p class="text-white">Please contact us on the link below or send us an email at <strong><a style="color: #fff;" href="mailto:harbourcottagelochcarron@gmail.com" target="_top">harbourcottagelochcarron@gmail.com</a></strong> for availability.</p>
 					<div class="content-contact">
 						<div class="contact-box">
 							<div class="contact-text-box">
-								<p class="get-in-text">Please email <strong><a style="color: #fff;" href="mailto:info@goldcresttherapy.co.uk" target="_top">info@goldcresttherapy.co.uk</a></strong> or complete the form below and I will come back to you as soon as I can.</p>
-								<br>
-								<br>
+								
 								<form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation" novalidate>
-									<input type="hidden" name="access_key" value="002f90d2-7945-497e-bb98-0fb9583c7e28" />
+									<input type="hidden" name="access_key" value="73cb71b1-88a7-46ae-8a22-f589b9a3a120" />
 									<input type="hidden" name="subject" value="New Submission from Web3Forms" />
 									<input type="checkbox" name="botcheck" id="" style="display: none;" />
 									<div class="flex mb-6 space-x-4">
@@ -186,6 +216,7 @@
 											Please enter your message.
 										</div>
 									</div>
+									<br>
 									<div class="mb-6">
 										<button type="submit" class="send-button w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
 										Send Message
@@ -198,7 +229,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="content-box-small">
+			<div id="gallery" class="content-box-small">
 				<h2>Gallery</h2>
 				<br>
 				<br>
@@ -219,7 +250,7 @@
 						<img src="https://github.com/iordanisch/harbour/blob/main/view%20from%20bathroom%20window%20sunny%20day.jpg?raw=true" alt="Image 5" />
 					</div>
 					<div class="gallery-item">
-						<img src="https://github.com/iordanisch/harbour/blob/main/Untitled3.jpeg?raw=true" alt="Image 6" />
+						<img src="https://github.com/iordanisch/harbour/blob/main/Untitled.jpeg?raw=true" alt="Image 6" />
 					</div>
 				</div>
 				<div class="modal">
@@ -233,7 +264,7 @@
 				</div>
 			</div>
 			<div class="content-d">
-				<div class="content-box-small">
+				<div id="our-guests" class="content-box-small">
 					<h2 class="text-white">Our guests</h2>
 					<p class="text-white">This is what previous guets thought of their stay with us.</p>
 					<div class="test-carousel-container">
@@ -305,8 +336,8 @@
 	</div>
 </div>
 </div>
-<div class="content-box-small">
-<h2 id="prices">Our prices</h2>
+<div id="prices" class="content-box-small">
+<h2>Our prices</h2>
 <p>Find our prices bellow and book based on your needs.</p>
 <br>
 <br>
@@ -320,7 +351,7 @@
 				<p>Guests</p>
 				<h2 class="">Solo travelers and couples</h2>
 				<p class="">For those adventuring solo or having a cozy romantic getaway.</p>
-				<div class=""><h2><span>From</span> £550</h2>
+				<div class=""><h2><span>From</span> £540</h2>
 				<div id="more">
 					<div class=""><p>6th Jan - 23rd Mar <strong>£550</strong></p></div>
 					<div class=""><p>24th Mar - 18th May <strong>£590</strong></p></div>
@@ -347,7 +378,7 @@
 		<div class="height-autosmb">
 		<p class="">A smaller gathering for roadtrips and nights in.</p>
 		</div>
-		<div class=""><h2><span>From</span> £650</h2>
+		<div class=""><h2><span>From</span> £600</h2>
 		<div id="more2">
 			<div class=""><p>6th Jan - 23rd Mar <strong>£650</strong></p></div>
 			<div class=""><p>24th Mar - 18th May <strong>£690</strong></p></div>
@@ -374,7 +405,7 @@
 <div class="height-autosmb">
 <p class="">All members of the family can enjoy a walk at the beach or relaxing by the cozy fire.</p>
 </div>
-<div class=""><h2><span>From</span> £820</h2>
+<div class=""><h2><span>From</span> £800</h2>
 	<div id="more3">
 			<div class=""><p>6th Jan - 23rd Mar <strong>£820</strong></p></div>
 			<div class=""><p>24th Mar - 18th May <strong>£840</strong></p></div>
@@ -670,5 +701,61 @@ moreText.style.display = "inline";
 }
 }
 
+function myFunction4() {
+var dots = document.getElementById("dots4");
+var moreText = document.getElementById("more4");
+var btnText = document.getElementById("myBtn4");
+if (dots.style.display === "none") {
+dots.style.display = "inline";
+btnText.innerHTML = "Show more activities";
+moreText.style.display = "none";
+} else {
+dots.style.display = "none";
+btnText.innerHTML = "Show less activities";
+moreText.style.display = "inline";
+}
+}
+
+//smooth scrolling
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+
+
+// arrow apear after scrolling
+$(function() {
+
+  $('#atestbox').hide();
+
+ $(window).scroll(function() {
+
+  var scroll = $(window).scrollTop();
+
+  if (scroll >=900) {
+
+  
+  $('#atestbox').fadeIn();
+
+  } else {
+
+ 
+  $('#atestbox').fadeOut();
+
+ }
+
+  });
+
+})
 
 	</script>
