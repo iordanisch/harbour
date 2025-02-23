@@ -252,7 +252,7 @@ justify-content: space-between;
 .pricing {
 max-width: 23%;
 }
-#more, #more2, #more3, #more4{
+#more, #more2, #more3, #more4, .nav-feedback.left, .nav-feedback.right{
 display: none;
 }
 /*------Form styling------*/
@@ -390,7 +390,8 @@ color: white;
 font-size: 30px;
 font-weight: bold;
 cursor: pointer;
-padding: 16px;
+/*padding: 16px;*/
+padding: 10px 16px 16px 16px;
 user-select: none;
 background: rgba(0, 0, 0, 0.5);
 border-radius: 4px;
