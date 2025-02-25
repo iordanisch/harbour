@@ -245,7 +245,8 @@ background: #828993;
 text-align: center;
 }
 .pricing-box{
-display: flex;
+display:none;	
+/*display: flex;*/
 justify-content: space-between;
 }
 .pricing {
