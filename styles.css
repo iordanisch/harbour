@@ -10,6 +10,10 @@ color: #1189a2;
 font-family: font-family: "Lato", serif;
 font-size: 16px;
 }
+a:visited{
+	text-decoration: none !important;
+	color: #fff !important;
+}
 a:hover{
 color: #0e829b;
 }
@@ -28,15 +32,31 @@ font-size: 28px;
 color: #828993;
 }
 p, li {
-font-family: font-family: "Lato", serif;
+font-family: 'Lato', sans-serif;
 font-size: 16px;
-color: #9298a1;
+color: #7b7b7b;
 }
+
 body{
 margin: 0 auto;
 position: relative;
 .text-white {
 color: #fff
+}
+.accomodation-card-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accomodation-card{
+	max-width: 45%;
+	border: 1px solid #d6dce3;
+    padding: 20px;
+    border-radius: 8px;
+}
+.harboursunny{
+	margin: 0 auto;
+  width: 800px;
 }
 .acoomodation-box{
 justify-content: space-between;
@@ -140,14 +160,14 @@ background: #79b2c5;
 color: #fff;
 opacity: 0.7;
 }
-.activities, .Eilean{
+.activities, .Eilean, .accomodation-box{
 display: flex;
 justify-content: space-between;
 }
-.activities-small, .Eilean-small{
+.activities-small, .Eilean-small, .accomodation-down-small{
 width: 45%
 }
-.activities-big, .Eilean-big{
+.activities-big, .Eilean-big, .accomodation-down{
 width: 50%;
 text-align: left;
 }
@@ -157,6 +177,25 @@ margin: auto;
 text-align: center;
 padding-bottom: 25px;
 }
+
+
+.primary-small {
+color: #fff;
+background: #1189a2;
+corner-radius: 4px;
+border: none;
+padding: 10px 25px 9px;
+text-align: center;
+text-decoration: none;
+border-radius: 4px;
+}
+
+.primary-small:hover {
+text-decoration: none;
+background: #0e829b;
+color:#fff;
+}
+
 .primary {
 color: #fff;
 background: #1189a2;
