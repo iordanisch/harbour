@@ -303,8 +303,7 @@ background: #828993;
 text-align: center;
 }
 .pricing-box{
-display:none;	
-/*display: flex;*/
+display: flex;
 justify-content: space-between;
 }
 .pricing {
@@ -511,7 +510,7 @@ opacity: 1;
 /*------Testimonial------*/
 .test-carousel-container {
 position: relative;
-width: 500px;
+/*width: 500px;*/
 max-width: 800px;
 margin: 0 auto;
 overflow: hidden;
@@ -585,7 +584,7 @@ background: white;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 border-radius: 8px;
 padding: 24px;
-max-width: 350px;
+max-width: 550px;
 font-family: system-ui, -apple-system, sans-serif;
 }
 .header {
