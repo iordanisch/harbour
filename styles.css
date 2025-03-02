@@ -10,7 +10,7 @@ color: #1189a2;
 font-family: font-family: "Lato", serif;
 font-size: 16px;
 }
-a:visited{
+.primary-small:visited{
 	text-decoration: none !important;
 	color: #fff !important;
 }
@@ -50,9 +50,17 @@ color: #fff
 
 .accomodation-card{
 	max-width: 45%;
-	border: 1px solid #d6dce3;
-    padding: 20px;
+	/*border: 1px solid #d6dce3;
+    padding: 20px;*/
     border-radius: 8px;
+    background: #fff;
+}
+.card-small {
+  padding: 20px;
+}
+.image-card{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 }
 .harboursunny{
 	margin: 0 auto;
@@ -151,7 +159,12 @@ padding: 0;
 background: #1189a2;
 }
 .content-c{
-background: #d0ae89;
+	background-position: center !important;
+  background: url(https://github.com/iordanisch/harbour/blob/main/Contact%20us.jpg?raw=true);
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*background: #d0ae89;*/
 }
 .content-d{
 background: #79b2c5;
@@ -159,6 +172,12 @@ background: #79b2c5;
 .text-white-b {
 color: #fff;
 opacity: 0.7;
+}
+.content-e{
+	background: #D0AE89;
+}
+.shadow-text{
+	text-shadow: 1px 1px #0000002e;
 }
 .activities, .Eilean, .accomodation-box{
 display: flex;
