@@ -97,11 +97,12 @@ background: url(https://github.com/iordanisch/harbour/blob/main/banner.jpg?raw=t
 background-repeat: no-repeat;
 }
 .nav-text{
-font-family: font-family: "Lato", serif;
+font-family: 'Lato', sans-serif;
 color: #828993;
+margin: 0px 16px;
 }
 .nav-text:hover{
-font-family: font-family: "Lato", serif;
+font-family: 'Lato', sans-serif;
 color: #1189a2;
 }
 .nav-box {
@@ -116,9 +117,6 @@ justify-content: space-between;
 .navigation-options {
 margin: auto 0px;
 padding-right: 16px;
-}
-.nav-text{
-margin: 0px 16px;
 }
 .headerbutbox {
 margin-top: 54px;
@@ -217,7 +215,6 @@ color:#fff;
 .primary {
 color: #fff;
 background: #1189a2;
-corner-radius: 4px;
 border: none;
 padding: 12px 25px 12px;
 text-align: center;
@@ -234,7 +231,6 @@ color:#fff;
 .secondary {
 color: #fff;
 background: #828993;
-corner-radius: 4px;
 border: none;
 padding: 12px 25px 12px;
 text-align: center;
@@ -272,7 +268,6 @@ box-shadow: 2px 2px 4px #00000080;
 button {
 color: #fff;
 background: #1189a2;
-corner-radius: 4px;
 border: none;
 padding: 10px 25px 9px;
 text-align: center;
@@ -683,7 +678,6 @@ margin: 0 0 20px 0;
 
 color: #fff;
 background: #d0ae89;
-corner-radius: 4px;
 border: none;
 padding: 10px 25px;
 text-align: center;
@@ -695,10 +689,8 @@ width: 100%;
 background: #c9a781;
 }
 .two {
-
 color: #fff;
 background: #d0c1ae;
-corner-radius: 4px;
 border: none;
 padding: 10px 25px;
 text-align: center;
@@ -710,10 +702,8 @@ width: 100%;
 background: #c8b8a4;
 }
 .three {
-
 color: #fff;
 background: #79b2c5;
-corner-radius: 4px;
 border: none;
 padding: 10px 25px;
 text-align: center;
@@ -728,10 +718,8 @@ background: #72abbf;
 background: #c8b8a4;
 }
 .four {
-
 color: #fff;
 background: #1189a2;
-corner-radius: 4px;
 border: none;
 padding: 10px 25px;
 text-align: center;
