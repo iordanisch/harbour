@@ -32,3 +32,53 @@ font-family: 'Lato', sans-serif;
 font-size: 16px;
 color: #7b7b7b;
 }
+
+body{
+margin: 0 auto;
+position: relative;
+.text-white {
+color: #fff
+}
+.accomodation-card-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accomodation-card{
+	max-width: 45%;
+	/*border: 1px solid #d6dce3;
+    padding: 20px;*/
+    border-radius: 8px;
+    background: #fff;
+}
+.card-small {
+  padding: 20px;
+}
+.image-card{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.harboursunny{
+	margin: 0 auto;
+  width: 800px;
+}
+.acoomodation-box{
+justify-content: space-between;
+display: flex;
+}
+.text-white.fa-solid.fa-bed, .text-white.fa-solid.fa-dog, .text-white.fa-solid.fa-wifi, .text-white.fa-solid.fa-seedling, .text-white.fa-solid.fa-square-parking {
+font-size: 50px;
+}
+.accomondation-in{
+max-width: 18%;
+}
+.logo {
+height: 55px;
+}
+.mobile-logo{
+height: 55px;
+display: none;
+}
+@-webkit-keyframes slide {
+100% { left: 0; }
+}
