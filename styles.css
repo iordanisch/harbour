@@ -82,3 +82,111 @@ display: none;
 @-webkit-keyframes slide {
 100% { left: 0; }
 }
+@keyframes slide {
+100% { left: 0; }
+}
+.header{
+height: 600px;
+display: flex;
+background-position: center!important;
+background: url(https://github.com/iordanisch/harbour/blob/main/banner.jpg?raw=true);
+background-repeat: no-repeat;
+}
+.nav-text{
+font-family: 'Lato', sans-serif;
+color: #828993;
+margin: 0px 16px;
+}
+.nav-text:hover{
+font-family: 'Lato', sans-serif;
+color: #1189a2;
+}
+.nav-box {
+padding: 16px 16px 25px 16px;
+}
+.nav-bar{
+background: #fff;
+max-width: 1920px;
+display: flex;
+justify-content: space-between;
+}
+.navigation-options {
+margin: auto 0px;
+padding-right: 16px;
+}
+.headerbutbox {
+margin-top: 54px;
+}
+.heardertext{
+color: #fff;
+text-shadow: 1px 1px #0000002e;
+font-size: 22px;
+}
+.headerh1 {
+font-size: 56px
+}
+.additional-box {
+max-width: 1100px;
+margin: auto;
+text-align: center;
+padding: 100px 0px;
+display: flex;
+justify-content: space-between;
+}
+.content-box-small {
+max-width: 1170px;
+margin: auto;
+text-align: center;
+padding: 100px 0px;
+}
+.content-box-small-b {
+width: 100%;
+margin: auto;
+text-align: center;
+/*padding: 100px 0px;*/
+}
+.container{
+width:100%;
+padding: 0;
+}
+.content{
+background: #1189a2;
+}
+.content-c{
+	background-position: center !important;
+  background: url(https://github.com/iordanisch/harbour/blob/main/Contact%20us.jpg?raw=true);
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*background: #d0ae89;*/
+}
+.content-d{
+background: #79b2c5;
+}
+.text-white-b {
+color: #fff;
+opacity: 0.7;
+}
+.content-e{
+	background: #D0AE89;
+}
+.shadow-text{
+	text-shadow: 1px 1px #0000002e;
+}
+.activities, .Eilean, .accomodation-box{
+display: flex;
+justify-content: space-between;
+}
+.activities-small, .Eilean-small, .accomodation-down-small{
+width: 45%
+}
+.activities-big, .Eilean-big, .accomodation-down{
+width: 50%;
+text-align: left;
+}
+.box {
+max-width: 1170px;
+margin: auto;
+text-align: center;
+padding-bottom: 25px;
+}
