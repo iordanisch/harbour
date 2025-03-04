@@ -14,7 +14,7 @@ a:hover{
 color: #0e829b;
 }
 h1, h2, h3 {
-font-family: 'Lato', sans-serif;
+font-family: 'Lato', sans-serif!important;
 }
 h1{
 font-size: 49px;
