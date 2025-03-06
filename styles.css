@@ -933,14 +933,12 @@ li {
 .secondary {
 margin-right: 0px;
 }
-.modal-content {
+.modal-content, .testimonial-card {
     max-width: 65%;
 }
-.testimonial-card {
-    max-width: 410px;
-  }
 
   .primary-mobile {
+  	display: table;
 color: #fff;
 background: #1189a2;
 border: none;
@@ -948,6 +946,7 @@ padding: 10px 25px 9px;
 text-align: center;
 text-decoration: none;
 border-radius: 4px;
+margin: auto;
 }
 
 .primary-mobile:hover {
