@@ -962,4 +962,7 @@ color:#fff;
   .accomodation-card:first-child{
   	margin-bottom: 30px;
   }
+  #form {
+    width: 95%
+  }
 }
