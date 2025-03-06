@@ -46,7 +46,7 @@ color: #fff
 
 
 
-#nav-icon3, #accomodation-mobile, #activities-mobile, .primary-mobile{
+#nav-icon3, #facilities-mobile, #activities-mobile, .primary-mobile{
   display: none;
 }
 
@@ -827,6 +827,12 @@ height: 83px;
 /*------End of pricing cards------*/
 /*------Responsive------*/
 
+@media only screen and (max-width: 1280px) {
+.content-box-small{
+	margin: auto 5px;
+}
+}
+
 @media only screen and (max-width: 991px) {
 .content-box-small{
 	margin: auto 5px;
@@ -834,14 +840,14 @@ height: 83px;
 	 .harboursunny {
   max-width: 97%
 }
-#activities-mobile, #accomodation, .primary-mobile, .nav-bar{
+#activities-mobile, .primary-mobile, .nav-bar, #facilities{
 	display: none;
 }
 .mobile-logo{
 	 	display: block;
 	 margin: 8px auto;
 	}
-	 #nav-icon3 {
+	 #nav-icon3, #facilities-mobile {
 	 	display: block;
 	 }
 .accomondation-in {
@@ -863,12 +869,21 @@ ul{
 li {
   margin: 5px auto;
 }
+.accomodation-card-box {
+    display: block;
+  }
+  .accomodation-card {
+    max-width: 100%;
+  }
+  .accomodation-card:first-child{
+  	margin-bottom: 30px;
+  }
 }
 @media only screen and (max-width: 600px) {
-	.nav-bar, #activities, .contact-hide,.TopButton{ 
+	.nav-bar, #activities, .contact-hide,.TopButton, #facilities{ 
 		display: none!important;
 	 }
-	 #nav-icon3, .activities,.Eilean {
+	 #nav-icon3, .activities,.Eilean, #facilities-mobile {
 	 	display: block;
 	 }
 .mobile-logo{
