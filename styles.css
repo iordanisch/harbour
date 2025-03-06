@@ -43,7 +43,9 @@ color: #fff
   display: flex;
   justify-content: space-between;
 }
-
+.word-fix{
+	word-break: break-all;
+}
 
 
 #nav-icon3, #facilities-mobile, #activities-mobile, .primary-mobile{
