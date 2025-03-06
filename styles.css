@@ -44,6 +44,95 @@ color: #fff
   justify-content: space-between;
 }
 
+
+
+#nav-icon3{
+  display: none;
+}
+
+#demo {
+  margin: 24px auto;
+}
+  #nav-icon3 {
+  width: 40px;
+  height: 45px;
+  position: absolute;
+  margin:20px 0px 0px 20px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+
+}
+ #nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 68%;
+  background: #1189A2;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  right: 0;
+  top: 0;
+}
+
+/* Icon 3 */
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 10px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 20px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+
 .accomodation-card{
 	max-width: 45%;
 	/*border: 1px solid #d6dce3;
@@ -62,7 +151,7 @@ color: #fff
 	margin: 0 auto;
   width: 800px;
 }
-.acoomodation-box{
+.acoomodation-box, .acoomodation-box-sec{
 justify-content: space-between;
 display: flex;
 }
@@ -297,7 +386,7 @@ justify-content: space-between;
 .pricing {
 max-width: 23%;
 }
-#more, #more2, #more3, #more4, .nav-feedback.left, .nav-feedback.right{
+#more, #more2, #more3, #more4,#more5, .nav-feedback.left, .nav-feedback.right{
 display: none;
 }
 /*------Form styling------*/
@@ -736,7 +825,126 @@ height: 102.5px;
 height: 83px;
 }
 /*------End of pricing cards------*/
-@media only screen and (max-width: 1280px) {
+/*------Responsive------*/
+
+@media only screen and (max-width: 991px) {
+.content-box-small{
+	margin: auto 5px;
 }
-@media only screen and (max-width: 970px) {
+	 .harboursunny {
+  max-width: 97%
+}
+#activities-mobile, #accomodation, .primary-mobile, .nav-bar{
+	display: none;
+}
+.mobile-logo{
+	 	display: block;
+	 margin: 8px auto;
+	}
+	 #nav-icon3 {
+	 	display: block;
+	 }
+.accomondation-in {
+    max-width: 30%;
+  }
+  .accomondation-in-sec {
+    max-width: 47%;
+  }
+  .acoomodation-box-sec{
+  	margin-top: 30px;
+  }
+  .modal-content {
+    max-width: 75%;
+}
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+li {
+  margin: 5px auto;
+}
+}
+@media only screen and (max-width: 600px) {
+	.nav-bar, #activities, .contact-hide,.TopButton{ 
+		display: none!important;
+	 }
+	 #nav-icon3, .activities,.Eilean {
+	 	display: block;
+	 }
+.mobile-logo{
+	 	display: block;
+	 margin: 8px auto;
+	}
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+li {
+  margin: 5px auto;
+}
+.primary, .secondary {
+    display: block;
+    margin-bottom: 24px;
+    max-width: 393px;
+  }
+  .harboursunny {
+  max-width: 97%
+}
+.content-box-small{
+	margin: auto 5px;
+}
+.accomondation-in {
+    max-width: 30%;
+  }
+  .accomondation-in-sec {
+    max-width: 47%;
+  }
+  .acoomodation-box-sec{
+  	margin-top: 30px;
+  }
+  .activities-small {
+  width: 100%;
+}
+.activities-big, .Eilean-big, .Eilean-small {
+  width: 100%;
+  text-align: center;
+}
+.button-cont {
+	display: flex;
+ justify-content: center;
+}
+.secondary {
+margin-right: 0px;
+}
+.modal-content {
+    max-width: 65%;
+}
+.testimonial-card {
+    max-width: 410px;
+  }
+
+  .primary-mobile {
+color: #fff;
+background: #1189a2;
+border: none;
+padding: 10px 25px 9px;
+text-align: center;
+text-decoration: none;
+border-radius: 4px;
+}
+
+.primary-mobile:hover {
+text-decoration: none;
+background: #0e829b;
+color:#fff;
+}
+.accomodation-card-box {
+    display: block;
+  }
+  .accomodation-card {
+    max-width: 100%;
+  }
+  .accomodation-card:first-child{
+  	margin-bottom: 30px;
+  }
 }
