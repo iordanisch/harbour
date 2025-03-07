@@ -874,7 +874,8 @@ li {
     display: block;
   }
   .accomodation-card {
-    max-width: 100%;
+    max-width: 80%;
+    margin:auto;
   }
   .accomodation-card:first-child{
   	margin-bottom: 30px;
@@ -957,12 +958,22 @@ color:#fff;
     display: block;
   }
   .accomodation-card {
-    max-width: 100%;
+    max-width: 80%;
+    margin:auto;
   }
   .accomodation-card:first-child{
   	margin-bottom: 30px;
   }
   #form {
     width: 95%
+  }
+  .test-dots-container{
+    top: 96%;
+  }
+  .testimonial-card {
+     height: 280px;
+    }
+    .test-slide {
+     height: 410px;
   }
 }
