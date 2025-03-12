@@ -68,11 +68,7 @@ false
 );
 });
 })();
-
-
-
-
- // Gallery Initialization
+// Gallery Initialization
         document.addEventListener('DOMContentLoaded', function() {
             // Initialize each gallery
             initGallery('main-gallery');
@@ -176,14 +172,6 @@ false
                 }
             });
         });
-
-
-
-
-
-
-
-
 //Testimonial
 const testCarousel = document.querySelector('.test-carousel');
 const testSlides = document.querySelectorAll('.test-slide');
