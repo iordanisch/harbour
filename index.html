@@ -17,7 +17,6 @@
 		<title>Harbour Cottage</title>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js"></script>
 		<script src="https://kit.fontawesome.com/e11ff565e8.js" crossorigin="anonymous"></script>
-		<!-- <script src="my.js"></script> -->
 	</head>
 	<body>
 		<div id="top" class="nav-bar">
@@ -160,7 +159,38 @@ The cosy lounge has a coal fire, comfortable sofas and armchairs and overlooks f
 <br>
 	<div class="accomodation-card-box">
 	<div class="accomodation-card">
-		<img class="img-responsive image-card" src="https://github.com/iordanisch/harbour/blob/main/main%20bedroom.jpg?raw=true" alt="">
+		 <!-- DOWNSTAIRS GALLERY -->
+    <section id="downstairs-gallery" class="gallery-section">
+          <div class="gallery-container card-cont">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item no-bord">
+                <img class="img-ac" class="image-card" src="https://github.com/iordanisch/harbour/blob/main/main%20bedroom.jpg?raw=true" alt="Image 4" />
+            </div>
+            
+            <!-- Gallery Item 2 -->
+            <div style="display: none" class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/living%20room%20fire.jpg?raw=true" alt="Image 5" />
+            </div>
+            
+            <!-- Gallery Item 3 -->
+            <div style="display: none" class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/living%20room.jpg?raw=true" alt="Image 14" />
+            </div>
+        </div>
+        
+        <!-- The modal for downstairs gallery -->
+        <div class="modal" data-gallery="downstairs">
+            <span class="close">&times;</span>
+              <img class="modal-content">
+            <div class="nav-controls">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+            <div class="dots-container"></div>
+            <div class="nav-feedback left">&#10094;</div>
+            <div class="nav-feedback right">&#10095;</div>
+        </div>
+    </section>
 		<div class="card-small">
 		<h3>Downstairs</h3>
 		<p>Downstairs has a king-size bed in large room with loch views from picture windows. There is also an en-suite shower room & WC. There is a bright large well-equipped kitchen with dining table and chairs, a TV, a fridge/freezer, dishwasher, electric cooker/oven and a Rayburn - excellent to return to your slow-cooked casserole! Washing machine is in utility at back door.</p>
@@ -168,7 +198,43 @@ The cosy lounge has a coal fire, comfortable sofas and armchairs and overlooks f
 </div>
 	
 	<div class="accomodation-card">
-		<img class="img-responsive image-card" src="https://github.com/iordanisch/harbour/blob/main/window%20bedroom.jpg?raw=true" alt="">
+		<!-- Upstairs GALLERY -->
+    <section id="outdoor-gallery" class="gallery-section">
+       <div class="gallery-container card-cont">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item">
+                <img class="img-ac" src="https://github.com/iordanisch/harbour/blob/main/twin%20beds.jpg?raw=true" alt="Image 8" />
+            </div>
+            
+            <!-- Gallery Item 2 -->
+            <div style="display: none" class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/Upstairs%20view.jpg?raw=true" alt="Image 1" />
+            </div>
+            
+            <!-- Gallery Item 3 -->
+            <div style="display: none" class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/double%20bed.jpg?raw=true" alt="Image 13" />
+            </div>
+              <!-- Gallery Item 4 -->
+            <div style="display: none" class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/upstairs%20toilet.jpg?raw=true" alt="Image 15" />
+            </div>
+        </div>
+
+        
+        <!-- The modal for outdoor gallery -->
+        <div class="modal" data-gallery="outdoor">
+            <span class="close">&times;</span>
+            <img class="modal-content">
+            <div class="nav-controls">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+            <div class="dots-container"></div>
+            <div class="nav-feedback left">&#10094;</div>
+            <div class="nav-feedback right">&#10095;</div>
+        </div>
+    </section>
 		<div class="card-small">
 		<h3>Upstairs</h3>
 		<p>Upstairs has a double room with loch views and a twin room with side views. The upstairs loo features an old, deep bath — perfect for a soak, though a bit of agility may be needed! The window overlooks the loch, with Lochcarron to the left and a sweeping panorama stretching to Attadale on the right.</p>
@@ -376,59 +442,57 @@ The cosy lounge has a coal fire, comfortable sofas and armchairs and overlooks f
 			<h2>Gallery</h2>
 			<br>
 			<br>
-			<div class="gallery">
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/Upstairs%20view.jpg?raw=true" alt="Image 1" />
-				</div><div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/window%20bedroom.jpg?raw=true" alt="Image 2" />
-				</div><div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/twin%20beds.jpg?raw=true" alt="Image 3" />
-				</div><div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/main%20bedroom.jpg?raw=true" alt="Image 4" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/living%20room%20fire.jpg?raw=true" alt="Image 5" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/Dail%20A'%20Cladaich.jpg?raw=true" alt="Image 6" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/WhatsApp%20Image%202024-12-23%20at%202.01.26%20PM.jpeg?raw=true" alt="Image 7" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/view%20from%20bathroom%20window%20sunny%20day.jpg?raw=true" alt="Image 8" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/Untitled.jpeg?raw=true" alt="Image 9" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/front%20of%20house%20sunny.jpg?raw=true" alt="Image 10" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/front%20garden.jpg?raw=true" alt="Image 11" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/bay%20.jpg?raw=true" alt="Image 12" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/double%20bed.jpg?raw=true" alt="Image 13" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/living%20room.jpg?raw=true" alt="Image 14" />
-				</div>
-				<div class="gallery-item">
-					<img src="https://github.com/iordanisch/harbour/blob/main/upstairs%20toilet.jpg?raw=true" alt="Image 15" />
-				</div>
-			</div>
-			<div class="modal">
-				<span class="close">&times;</span>
-				<span class="nav prev">&#10094;</span>
-				<span class="nav next">&#10095;</span>
-				<div class="nav-feedback left">&#10094;</div>
-				<div class="nav-feedback right">&#10095;</div>
-				<img class="modal-content" />
-				<div class="dots-container"></div>
-			</div>
+			<section id="main-gallery" class="gallery-section">
+<div class="gallery-container gal-cont-cust">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/Dail%20A'%20Cladaich.jpg?raw=true" alt="Image 1" />
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/WhatsApp%20Image%202024-12-23%20at%202.01.26%20PM.jpeg?raw=true" alt="Image 2" />
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/view%20from%20bathroom%20window%20sunny%20day.jpg?raw=true" alt="Image 3" />
+            </div>
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/Untitled.jpeg?raw=true" alt="Image 4" />
+            </div>
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/front%20of%20house%20sunny.jpg?raw=true" alt="Image 5" />
+            </div>
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/front%20garden.jpg?raw=true" alt="Image 6" />
+            </div>
+            <!-- Gallery Item 7 -->
+            <div class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/bay%20.jpg?raw=true" alt="Image 7" />
+            </div>
+             <!-- Gallery Item 8 -->
+            <div class="gallery-item">
+                <img src="https://github.com/iordanisch/harbour/blob/main/Untitled3.jpeg?raw=true" alt="Image 8" />
+            </div>
+          </div>
+   <!-- The modal for main gallery -->
+        <div class="modal" data-gallery="main">
+            <span class="close">&times;</span>
+            <img class="modal-content">
+            <div class="nav-controls">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+            <div class="dots-container"></div>
+            <div class="nav-feedback left">&#10094;</div>
+            <div class="nav-feedback right">&#10095;</div>
+        </div>
+    </section>
+
+
+			
 		</div>
 		<div class="content-d">
 			<div id="our-guests" class="content-box-small">
@@ -613,318 +677,9 @@ The cosy lounge has a coal fire, comfortable sofas and armchairs and overlooks f
 <!-- <img class="footlogo" src="/home/iordanis/Desktop/Logo footer.jpg" alt=""> -->
 <p class="text-white-footer">Highland Council Letting Licence No. : HI-10559-F</p>
 <br>
-<p class="text-white-footer">-- Harbour cottage Lochcarron 2025 --</p>
+<p class="text-white-footer">-- Harbour Cottage Lochcarron 2025 --</p>
 </div>
 </div>
+ <script src="my.js"></script>
 </body>
 </html>
-
-<script>
-	
-// Form
-(function () {
-"use strict";
-/*
-* Form Validation
-*/
-// Fetch all the forms we want to apply custom validation styles to
-const forms = document.querySelectorAll(".needs-validation");
-const result = document.getElementById("result");
-// Loop over them and prevent submission
-Array.prototype.slice.call(forms).forEach(function (form) {
-form.addEventListener(
-"submit",
-function (event) {
-if (!form.checkValidity()) {
-event.preventDefault();
-event.stopPropagation();
-form.querySelectorAll(":invalid")[0].focus();
-} else {
-/*
-* Form Submission using fetch()
-*/
-const formData = new FormData(form);
-event.preventDefault();
-event.stopPropagation();
-const object = {};
-formData.forEach((value, key) => {
-object[key] = value;
-});
-const json = JSON.stringify(object);
-result.innerHTML = "Please wait...";
-fetch("https://api.web3forms.com/submit", {
-method: "POST",
-headers: {
-"Content-Type": "application/json",
-Accept: "application/json"
-},
-body: json
-})
-.then(async (response) => {
-let json = await response.json();
-if (response.status == 200) {
-result.innerHTML = json.message;
-result.classList.remove("text-gray-500");
-result.classList.add("text-green-500");
-} else {
-console.log(response);
-result.innerHTML = json.message;
-result.classList.remove("text-gray-500");
-result.classList.add("text-red-500");
-}
-})
-.catch((error) => {
-console.log(error);
-result.innerHTML = "Something went wrong!";
-})
-.then(function () {
-form.reset();
-form.classList.remove("was-validated");
-setTimeout(() => {
-result.style.display = "none";
-}, 5000);
-});
-}
-form.classList.add("was-validated");
-},
-false
-);
-});
-})();
-//Gallery
-const modal = document.querySelector('.modal');
-const modalImg = document.querySelector('.modal-content');
-const close = document.querySelector('.close');
-const prev = document.querySelector('.prev');
-const next = document.querySelector('.next');
-const dotsContainer = document.querySelector('.dots-container');
-const galleryItems = document.querySelectorAll('.gallery-item img');
-const navFeedbackLeft = document.querySelector('.nav-feedback.left');
-const navFeedbackRight = document.querySelector('.nav-feedback.right');
-let currentImageIndex = 0;
-// Create navigation dots
-galleryItems.forEach((_, index) => {
-const dot = document.createElement('div');
-dot.classList.add('dot');
-dot.onclick = () => showImage(index);
-dotsContainer.appendChild(dot);
-});
-const dots = document.querySelectorAll('.dot');
-function showImage(index) {
-currentImageIndex = index;
-modalImg.src = galleryItems[index].src;
-// Update dots
-dots.forEach((dot, i) => {
-dot.classList.toggle('active', i === index);
-});
-}
-function showNavFeedback(direction) {
-const feedback = direction === 'left' ? navFeedbackLeft : navFeedbackRight;
-feedback.classList.add('show');
-setTimeout(() => feedback.classList.remove('show'), 200);
-}
-galleryItems.forEach((img, index) => {
-img.onclick = function() {
-modal.style.display = "block";
-showImage(index);
-}
-});
-prev.onclick = function() {
-showNavFeedback('left');
-currentImageIndex = (currentImageIndex - 1 + galleryItems.length) % galleryItems.length;
-showImage(currentImageIndex);
-}
-next.onclick = function() {
-showNavFeedback('right');
-currentImageIndex = (currentImageIndex + 1) % galleryItems.length;
-showImage(currentImageIndex);
-}
-close.onclick = function() {
-modal.style.display = "none";
-}
-window.onclick = function(event) {
-if (event.target == modal) {
-modal.style.display = "none";
-}
-}
-document.addEventListener('keydown', function(e) {
-if (modal.style.display === "block") {
-if (e.key === "ArrowLeft") prev.onclick();
-if (e.key === "ArrowRight") next.onclick();
-if (e.key === "Escape") close.onclick();
-}
-});
-//Testimonial
-const testCarousel = document.querySelector('.test-carousel');
-const testSlides = document.querySelectorAll('.test-slide');
-const testPrevButton = document.querySelector('.test-prev');
-const testNextButton = document.querySelector('.test-next');
-const testDotsContainer = document.querySelector('.test-dots-container');
-let testCurrentSlide = 0;
-const testTotalSlides = testSlides.length;
-testSlides.forEach((_, index) => {
-const testDot = document.createElement('div');
-testDot.classList.add('test-dot');
-if (index === 0) testDot.classList.add('test-active');
-testDot.addEventListener('click', () => {
-testCurrentSlide = index;
-updateTestCarousel();
-resetTestTimer();
-});
-testDotsContainer.appendChild(testDot);
-});
-const testDots = document.querySelectorAll('.test-dot');
-function updateTestCarousel() {
-testCarousel.style.transform = `translateX(-${testCurrentSlide * 100}%)`;
-testSlides.forEach((testSlide, index) => {
-testSlide.classList.toggle('test-active', index === testCurrentSlide);
-});
-testDots.forEach((testDot, index) => {
-testDot.classList.toggle('test-active', index === testCurrentSlide);
-});
-}
-function nextTestSlide() {
-testCurrentSlide = (testCurrentSlide + 1) % testTotalSlides;
-updateTestCarousel();
-}
-function prevTestSlide() {
-testCurrentSlide = (testCurrentSlide - 1 + testTotalSlides) % testTotalSlides;
-updateTestCarousel();
-}
-let isTestTransitioning = false;
-function handleTestNavigation(direction) {
-if (isTestTransitioning) return;
-isTestTransitioning = true;
-direction === 'next' ? nextTestSlide() : prevTestSlide();
-resetTestTimer();
-setTimeout(() => {
-isTestTransitioning = false;
-}, 1200);
-}
-testNextButton.addEventListener('click', () => handleTestNavigation('next'));
-testPrevButton.addEventListener('click', () => handleTestNavigation('prev'));
-let testSlideTimer = setInterval(nextTestSlide, 10000);
-function resetTestTimer() {
-clearInterval(testSlideTimer);
-testSlideTimer = setInterval(nextTestSlide, 10000);
-}
-let testTouchStartX = 0;
-let testTouchEndX = 0;
-testCarousel.addEventListener('touchstart', e => {
-testTouchStartX = e.changedTouches[0].screenX;
-});
-testCarousel.addEventListener('touchend', e => {
-testTouchEndX = e.changedTouches[0].screenX;
-if (testTouchStartX - testTouchEndX > 50) {
-handleTestNavigation('next');
-} else if (testTouchEndX - testTouchStartX > 50) {
-handleTestNavigation('prev');
-}
-});
-//show more show less
-function myFunction() {
-var dots = document.getElementById("dots");
-var moreText = document.getElementById("more");
-var btnText = document.getElementById("myBtn");
-if (dots.style.display === "none") {
-dots.style.display = "inline";
-btnText.innerHTML = "Show more";
-moreText.style.display = "none";
-} else {
-dots.style.display = "none";
-btnText.innerHTML = "Show less";
-moreText.style.display = "inline";
-}
-}
-function myFunction2() {
-var dots = document.getElementById("dots2");
-var moreText = document.getElementById("more2");
-var btnText = document.getElementById("myBtn2");
-if (dots.style.display === "none") {
-dots.style.display = "inline";
-btnText.innerHTML = "Show more";
-moreText.style.display = "none";
-} else {
-dots.style.display = "none";
-btnText.innerHTML = "Show less";
-moreText.style.display = "inline";
-}
-}
-function myFunction3() {
-var dots = document.getElementById("dots3");
-var moreText = document.getElementById("more3");
-var btnText = document.getElementById("myBtn3");
-if (dots.style.display === "none") {
-dots.style.display = "inline";
-btnText.innerHTML = "Show more";
-moreText.style.display = "none";
-} else {
-dots.style.display = "none";
-btnText.innerHTML = "Show less";
-moreText.style.display = "inline";
-}
-}
-function myFunction4() {
-var dots = document.getElementById("dots4");
-var moreText = document.getElementById("more4");
-var btnText = document.getElementById("myBtn4");
-if (dots.style.display === "none") {
-dots.style.display = "inline";
-btnText.innerHTML = "Show more activities";
-moreText.style.display = "none";
-} else {
-dots.style.display = "none";
-btnText.innerHTML = "Show less activities";
-moreText.style.display = "inline";
-}
-}
-function myFunction5() {
-var dots = document.getElementById("dots5");
-var moreText = document.getElementById("more5");
-var btnText = document.getElementById("myBtn5");
-if (dots.style.display === "none") {
-dots.style.display = "inline";
-btnText.innerHTML = "Show more activities";
-moreText.style.display = "none";
-} else {
-dots.style.display = "none";
-btnText.innerHTML = "Show less activities";
-moreText.style.display = "inline";
-}
-}
-//smooth scrolling
-$(document).ready(function(){
-$('a[href^="#"]').on('click',function (e) {
-e.preventDefault();
-var target = this.hash;
-var $target = $(target);
-$('html, body').stop().animate({
-'scrollTop': $target.offset().top
-}, 900, 'swing', function () {
-window.location.hash = target;
-});
-});
-});
-// arrow apear after scrolling
-$(function() {
-$('#atestbox').hide();
-$(window).scroll(function() {
-var scroll = $(window).scrollTop();
-if (scroll >=900) {
-
-$('#atestbox').fadeIn();
-} else {
-
-$('#atestbox').fadeOut();
-}
-});
-})
-
-//mobile menu icon
-$(document).ready(function() {
-  $('#nav-icon3').click(function() {
-    $(this).toggleClass('open');
-    $('#demo').slideToggle('slow');
-  });
-});
-</script>
