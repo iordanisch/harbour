@@ -580,7 +580,7 @@ max-height: 90vh;
 
         .dots-container {
 position: absolute;
-bottom: 20px;
+bottom: 2%;
 left: 50%;
 transform: translateX(-50%);
 display: flex;
