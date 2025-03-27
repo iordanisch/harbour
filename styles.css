@@ -52,7 +52,6 @@ color: #7b7b7b;
 
 
 
-
 body{
 margin: 0 auto;
 position: relative;
@@ -407,7 +406,7 @@ justify-content: space-between;
 .pricing {
 max-width: 23%;
 }
-#more, #more2, #more3, #more4,#more5, .nav-feedback.left, .nav-feedback.right{
+#more, #more2, #more3, #more4,#more5, .nav-feedback.left, .nav-feedback.right, #accomodation-mobile {
 display: none;
 }
 /*------Form styling------*/
@@ -878,13 +877,16 @@ height: 83px;
 }
 
 @media only screen and (max-width: 991px) {
+  .kitchen-img{
+  margin:auto;
+}
 .content-box-small{
 	margin: auto 5px;
 }
 	 .harboursunny {
   max-width: 97%
 }
-#activities-mobile, .primary-mobile, .nav-bar, #facilities{
+#activities-mobile, .primary-mobile, .nav-bar, #facilities {
 	display: none;
 }
 .mobile-logo{
@@ -894,6 +896,8 @@ height: 83px;
 	 #nav-icon3, #facilities-mobile {
 	 	display: block;
 	 }
+
+ 
 .accomondation-in {
     max-width: 30%;
   }
@@ -925,10 +929,10 @@ li {
   }
 }
 @media only screen and (max-width: 600px) {
-	.nav-bar, #activities, .contact-hide,.TopButton, #facilities{ 
+	.nav-bar, #activities, .contact-hide,.TopButton, #facilities, #accomodation{ 
 		display: none!important;
 	 }
-	 #nav-icon3, .activities,.Eilean, #facilities-mobile {
+	 #nav-icon3, .activities,.Eilean, #facilities-mobile,  #accomodation-mobile {
 	 	display: block;
 	 }
 .mobile-logo{
