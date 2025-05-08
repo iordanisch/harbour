@@ -198,7 +198,7 @@ display: none;
 height: 600px;
 display: flex;
 background-position: center!important;
-background: url(https://raw.githubusercontent.com/iordanisch/harbour/refs/heads/main/banner.jpg);
+background: url(https://raw.githubusercontent.com/iordanisch/harbour/refs/heads/main/banner-new.jpeg);
 background-repeat: no-repeat;
 }
 .nav-text{
@@ -263,7 +263,7 @@ background: #1189a2;
 }
 .content-c{
 	background-position: center !important;
-  background: url(https://github.com/iordanisch/harbour/blob/main/Contact%20us.jpg?raw=true);
+  background: url(https://raw.githubusercontent.com/iordanisch/harbour/refs/heads/main/Contact%20us.jpg);
     background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -932,7 +932,7 @@ li {
 	.nav-bar, #activities, .contact-hide,.TopButton, #facilities, #accomodation{ 
 		display: none!important;
 	 }
-	 #nav-icon3, .activities,.Eilean, #facilities-mobile,  #accomodation-mobile {
+	 #nav-icon3, .activities,.Eilean, #facilities-mobile,  #accomodation-mobile, #activities-mobile {
 	 	display: block;
 	 }
 .mobile-logo{
