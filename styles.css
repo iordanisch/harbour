@@ -198,7 +198,7 @@ display: none;
 height: 600px;
 display: flex;
 background-position: center!important;
-background: url(https://github.com/iordanisch/harbour/blob/main/banner.jpg?raw=true);
+background: url(https://raw.githubusercontent.com/iordanisch/harbour/refs/heads/main/banner.jpg);
 background-repeat: no-repeat;
 }
 .nav-text{
